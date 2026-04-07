@@ -1,0 +1,126 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "gallery": "Gallery",
+    "history": "History",
+    "facilities": "Facilities",
+    "attractions": "Attractions",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to Cottage",
+    "subtitle": "Your perfect getaway in the heart of nature",
+    "description": "Experience the tranquility of Rajecké Teplice in our beautifully restored cottage. Surrounded by mountains and forests, our accommodation offers the perfect blend of comfort and nature.",
+    "bookNow": "Book Now",
+    "learnMore": "Learn More"
+  },
+  "niceToKnow": {
+    "label": "Nice to know",
+    "title": "Nice to know",
+    "subtitle": "Practical information to help you during your stay. Here you will find useful tips on how to use the cottage equipment so you can enjoy a comfortable and hassle-free stay.",
+    "items": {
+      "electricity": {
+        "tag": "Electricity",
+        "title": "Turning on the electricity",
+        "text": "After arrival, please switch on the main circuit breaker located behind the entrance door. Once turned on, electricity will be available throughout the cottage and all appliances can be used."
+      },
+      "fridge": {
+        "tag": "Kitchen",
+        "title": "Fridge",
+        "text": "The fridge can be switched on using the switch located behind the refrigerator in the kitchen. Turn it to the ON position and close both the fridge and freezer doors so the cooling process can start."
+      },
+      "water": {
+        "tag": "Water",
+        "title": "Turning on the water",
+        "text": "The water supply can be turned on in the basement. Behind the door near the floor there is a valve that needs to be turned left into a horizontal position. Once turned, water will be available in the cottage."
+      },
+      "bathroomWater": {
+        "tag": "Bathroom",
+        "title": "Heating water in the bathroom",
+        "text": "There is a switch with a light on the outside of the bathroom. When the light is on, the boiler is heating the water. Heating takes approximately one hour. We recommend avoiding showering while the water is heating to allow it to warm up properly."
+      },
+      "wifi": {
+        "tag": "Connection",
+        "title": "WiFi",
+        "text": "You can connect to WiFi using the QR code. The cottage is equipped with optical internet, providing a fast and stable connection during your stay."
+      },
+      "keys": {
+        "tag": "Access",
+        "title": "Keys",
+        "text": "The blue key is for the outer gate. For the entrance door, use the red key for the upper lock and the key with the white dot for the lower lock."
+      },
+      "towels": {
+        "tag": "Comfort",
+        "title": "Towels",
+        "text": "Towels are prepared for you in the living room, in the red cabinet under the TV. Feel free to use them during your stay."
+      },
+      "bedLinen": {
+        "tag": "Bedroom",
+        "title": "Bed linen",
+        "text": "Bed linen is located in the wardrobe in the bedroom. Sheets can be found in the bottom drawer. After your stay, please place the used bed linen into the laundry basket in the bathroom."
+      },
+      "portableRadiator": {
+        "tag": "Heating",
+        "title": "Portable radiator control",
+        "text": "Turn on the portable radiator using the button on the side. Then press 'Turn On', select 'TEMP', set the desired temperature and confirm with the OK button. The radiator will then start heating."
+      },
+      "bathroomRadiator": {
+        "tag": "Bathroom",
+        "title": "Bathroom radiator control",
+        "text": "The bathroom radiator can be switched on using the button on the side. Above the radiator you will find the control for adjusting the heating intensity."
+      }
+    }
+  },
+  "about": {
+    "title": "About Our Cottage",
+    "history": "Our History",
+    "historyText": "Built in the early 20th century, our cottage has been lovingly restored to preserve its original charm while providing modern comforts.",
+    "features": "Features",
+    "feature1": "Traditional Slovak architecture",
+    "feature2": "Modern amenities",
+    "feature3": "Mountain views",
+    "feature4": "Peaceful surroundings"
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "Explore our cottage and surroundings"
+  },
+  "history": {
+    "title": "History",
+    "subtitle": "The story of our cottage",
+    "text": "Our cottage has a rich history dating back to the early 20th century. Originally built as a summer residence, it has been carefully preserved and restored to maintain its original character while providing modern comforts."
+  },
+  "facilities": {
+    "title": "Facilities",
+    "subtitle": "Everything you need for a comfortable stay",
+    "kitchen": "Kitchen",
+    "kitchenText": "Fully equipped kitchen with modern appliances",
+    "bedroom": "Bedroom",
+    "bedroomText": "Comfortable bedrooms with mountain views",
+    "bathroom": "Bathroom",
+    "bathroomText": "Modern bathrooms with hot water",
+    "living": "Living Room",
+    "livingText": "Cozy living room with fireplace"
+  },
+  "attractions": {
+    "title": "Local Attractions",
+    "subtitle": "Discover the beauty around us",
+    "hiking": "Hiking",
+    "hikingText": "Explore the beautiful trails in the Malá Fatra mountains",
+    "spa": "Spa & Wellness",
+    "spaText": "Relax in the thermal spa of Rajecké Teplice",
+    "culture": "Culture",
+    "cultureText": "Visit historical sites and museums in the region",
+    "nature": "Nature",
+    "natureText": "Enjoy the pristine nature and wildlife"
+  },
+  "contact": {
+    "findUs": "Where to find Us",
+    "navigate": "Navigate"
+  },
+  "table": {
+    "title": "Season Schedule",
+    "subtitle": "Current season standings and matches"
+  }
+}

@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+// ============================================
+// GLOBAL RESET FOR FULL-WIDTH MENU ONLY
+// ============================================
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden;
+}
+
+// Remove any default margins/padding from app container
+app-root {
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+}
+
+// Ensure menubar spans full width (but not other components!)
+menubar {
+  display: block;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+// Do NOT affect dropdown or other PrimeNG components
+.p-dropdown,
+.p-dropdown-panel,
+.p-dropdown-items,
+p-dropdown {
+  // reset any potential global interference
+  box-sizing: border-box !important;
+}

@@ -1,0 +1,23 @@
+<p-menubar [model]="items">
+    <ng-template pTemplate="start">
+        <div class="brand">
+            <img src="/assets/logo.png" alt="Chata Logo" class="brand-logo" />
+            <div class="brand-text">
+                <span class="brand-title">Chata Hills</span>
+                <span class="brand-subtitle">Relax v prírode</span>
+            </div>
+        </div>
+    </ng-template>
+
+    <ng-template let-item pTemplate="item">
+        <a [routerLink]="item.routerLink" class="menu-link" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">
+            <span class="p-menuitem-text">{{ item.label }}</span>
+        </a>
+    </ng-template>
+
+    <ng-template pTemplate="end">
+        <button type="button" class="lang-switch" (click)="switchLang(currentLang === 'sk' ? 'en' : 'sk')" aria-label="Switch language">
+            <img class="flag" [src]="getFlagPath(currentLang)" [alt]="currentLang + ' flag'" />
+        </button>
+    </ng-template>
+</p-menubar>

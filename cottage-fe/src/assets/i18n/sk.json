@@ -1,0 +1,126 @@
+{
+  "menu": {
+    "home": "Domov",
+    "about": "O chate",
+    "gallery": "Galéria",
+    "history": "História",
+    "facilities": "Vybavenie",
+    "attractions": "Okolie",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "welcome": "Vitajte v Cottage",
+    "subtitle": "Váš ideálny únik do srdca prírody",
+    "description": "Zažite pokoj Rajeckých Teplíc v našej krásne zrekonštruovanej chate. Obklopení horami a lesmi, naša ubytovňa ponúka dokonalú kombináciu komfortu a prírody.",
+    "bookNow": "Rezervovať",
+    "learnMore": "Viac informácií"
+  },
+  "niceToKnow": {
+    "label": "Dobré vedieť",
+    "title": "Dobré vedieť",
+    "subtitle": "Praktické informácie, ktoré vám pomôžu počas pobytu. Nájdete tu dôležité pokyny k ovládaniu vybavenia chaty, aby bol váš pobyt čo najpríjemnejší.",
+    "items": {
+      "electricity": {
+        "tag": "Elektrina",
+        "title": "Zapnutie elektriny",
+        "text": "Po príchode je potrebné zapnúť hlavný istič, ktorý sa nachádza za vchodovými dverami. Po jeho zapnutí bude chata napájaná elektrinou a môžete bez obmedzení používať všetky spotrebiče."
+      },
+      "fridge": {
+        "tag": "Kuchyňa",
+        "title": "Chladnička",
+        "text": "Chladničku zapnete pomocou vypínača umiestneného za chladničkou v kuchyni. Vypínač otočte do polohy zapnuté a následne zatvorte dvere chladničky aj mrazničky, aby mohlo zariadenie začať chladiť."
+      },
+      "water": {
+        "tag": "Voda",
+        "title": "Zapnutie vody",
+        "text": "Vodu je potrebné zapnúť v pivnici. Za dverami pri zemi sa nachádza ventil, ktorý stačí otočiť do vodorovnej polohy doľava. Po otočení bude voda v chate pripravená na používanie."
+      },
+      "bathroomWater": {
+        "tag": "Kúpeľňa",
+        "title": "Ohrev vody v kúpeľke",
+        "text": "Na vonkajšej strane kúpeľne sa nachádza spínač so svetlom. Ak svieti, voda v bojleri sa nahrieva. Ohrev trvá približne jednu hodinu. Počas nahrievania vody neodporúčame sprchovanie, aby sa voda stihla dostatočne zohriať."
+      },
+      "wifi": {
+        "tag": "Pripojenie",
+        "title": "WiFi",
+        "text": "Na pripojenie k WiFi môžete použiť QR kód. Pripojenie je zabezpečené cez optický internet, takže počas pobytu máte k dispozícii rýchle a stabilné pripojenie."
+      },
+      "keys": {
+        "tag": "Prístup",
+        "title": "Kľúče",
+        "text": "Modrý kľúč je určený pre vonkajšiu bránku. Na vchodových dverách slúži červený kľúč pre horný zámok a kľúč s bielou bodkou pre spodný zámok."
+      },
+      "towels": {
+        "tag": "Pohodlie",
+        "title": "Uteráky",
+        "text": "Uteráky sú pre vás pripravené v obývačke v červenej skrinke pod televízorom. Môžete ich počas pobytu používať podľa potreby."
+      },
+      "bedLinen": {
+        "tag": "Spálňa",
+        "title": "Posteľné prádlo",
+        "text": "Posteľné prádlo sa nachádza v skrini v spálni. Plachty sú uložené v spodnom šuflíku. Po ukončení pobytu prosíme vyzlečené posteľné prádlo vložiť do koša na prádlo v kúpeľni."
+      },
+      "portableRadiator": {
+        "tag": "Kúrenie",
+        "title": "Ovládanie prenosného radiátora",
+        "text": "Prenosný radiátor zapnete tlačidlom na jeho boku. Následne stlačte „Turn On“, potom „TEMP“, nastavte požadovanú teplotu a potvrďte tlačidlom OK. Radiátor následne začne kúriť."
+      },
+      "bathroomRadiator": {
+        "tag": "Kúpeľňa",
+        "title": "Ovládanie radiátora v kúpeľke",
+        "text": "Radiátor v kúpeľke zapnete tlačidlom zboku. Nad radiátorom sa nachádza ovládanie, pomocou ktorého si môžete nastaviť intenzitu kúrenia podľa potreby."
+      }
+    }
+  },
+  "about": {
+    "title": "O našej chate",
+    "history": "Naša história",
+    "historyText": "Postavená začiatkom 20. storočia, naša chata bola láskyplne zrekonštruovaná, aby zachovala svoj pôvodný pôvab a zároveň poskytovala moderné pohodlie.",
+    "features": "Vlastnosti",
+    "feature1": "Tradičná slovenská architektúra",
+    "feature2": "Moderné vybavenie",
+    "feature3": "Výhľady na hory",
+    "feature4": "Pokojné okolie"
+  },
+  "gallery": {
+    "title": "Fotogaléria",
+    "subtitle": "Preskúmajte našu chatu a okolie"
+  },
+  "history": {
+    "title": "História",
+    "subtitle": "Príbeh našej chaty",
+    "text": "Naša chata má bohatú históriu siahajúcu až do začiatku 20. storočia. Pôvodne postavená ako letné sídlo, bola starostlivo zachovaná a zrekonštruovaná, aby zachovala svoj pôvodný charakter a zároveň poskytovala moderné pohodlie."
+  },
+  "facilities": {
+    "title": "Vybavenie",
+    "subtitle": "Všetko, čo potrebujete pre pohodlný pobyt",
+    "kitchen": "Kuchyňa",
+    "kitchenText": "Plne vybavená kuchyňa s modernými spotrebičmi",
+    "bedroom": "Spálňa",
+    "bedroomText": "Pohodlné spálne s výhľadom na hory",
+    "bathroom": "Kúpeľňa",
+    "bathroomText": "Moderné kúpeľne s teplou vodou",
+    "living": "Obývacia izba",
+    "livingText": "Udobná obývacia izba s kozubom"
+  },
+  "attractions": {
+    "title": "Lokálne atrakcie",
+    "subtitle": "Objavte krásu okolo nás",
+    "hiking": "Turistika",
+    "hikingText": "Preskúmajte krásne chodníky v Malých Fatrách",
+    "spa": "Spa & Wellness",
+    "spaText": "Relaxujte v termálnych kúpeľoch Rajeckých Teplíc",
+    "culture": "Kultúra",
+    "cultureText": "Navštívte historické pamiatky a múzeá v regióne",
+    "nature": "Príroda",
+    "natureText": "Užívajte si nedotknutú prírodu a divú zver"
+  },
+  "contact": {
+    "findUs": "Kde nás nájdete",
+    "navigate": "Navigovať"
+  },
+  "table": {
+    "title": "Sezónny rozvrh",
+    "subtitle": "Aktuálne tabuľky a zápasy sezóny"
+  }
+}
