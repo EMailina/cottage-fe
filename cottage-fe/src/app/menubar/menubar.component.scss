@@ -1,50 +1,32 @@
 :host {
   display: block;
   width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 :host ::ng-deep .p-menubar {
-  background: rgba(255, 255, 255, 0.92) !important;
+  background: rgba(255, 255, 255, 0.94) !important;
   border: none !important;
   border-radius: 0 !important;
   padding: 0.85rem 1.5rem !important;
-  box-shadow: none !important;
-  backdrop-filter: blur(10px);
   margin: 0 !important;
   width: 100% !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  position: relative;
 }
 
-:host ::ng-deep .p-menubar-start {
-  margin-right: 2rem !important;
-}
-
-.brand {
+:host ::ng-deep .p-menubar-start,
+:host ::ng-deep .p-menubar-end {
   display: flex;
   align-items: center;
 }
 
-.brand-logo {
-  width: 42px;
-  height: 42px;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.brand-text {
-  display: flex;
-  flex-direction: column;
-  line-height: 1.1;
-}
-
-.brand-title {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #2f2a25;
-}
-
-.brand-subtitle {
-  font-size: 0.75rem;
-  color: #8a7f73;
+:host ::ng-deep .p-menubar-start {
+  margin-right: 2rem !important;
 }
 
 :host ::ng-deep .p-menubar-root-list {
@@ -53,18 +35,110 @@
   align-items: center;
 }
 
+:host ::ng-deep .p-menuitem-content {
+  background: transparent !important;
+  border-radius: 14px !important;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.brand-logo {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+
+.brand-link {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+
+:host ::ng-deep .p-menubar {
+  overflow: visible !important;
+}
+
+:host ::ng-deep .p-menubar-end {
+  position: relative;
+  z-index: 1004;
+}
+
+.lang-switch {
+  position: relative;
+  z-index: 1005;
+  pointer-events: auto;
+}
+
+.lang-switch img {
+  pointer-events: none;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+  min-width: 0;
+}
+
+.brand-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #2f2a25;
+  white-space: nowrap;
+}
+
+.brand-subtitle {
+  font-size: 0.75rem;
+  color: #8a7f73;
+  white-space: nowrap;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #3b342d !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.65rem 1rem;
+  border-radius: 14px;
+  transition: all 0.25s ease;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.menu-link:hover {
+  background: #f3eee8;
+  color: #1f1a17 !important;
+}
+
+.active-link {
+  background: #e8ded2;
+  color: #1f1a17 !important;
+  font-weight: 600;
+}
+
 .lang-switch {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 42px;
   height: 42px;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.10);
+  background: #fff;
   border-radius: 50%;
   cursor: pointer;
-  transition: background 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
   padding: 0;
+  flex-shrink: 0;
 }
 
 .lang-switch:hover {
@@ -79,46 +153,151 @@
   display: block;
 }
 
-:host ::ng-deep .p-menuitem-content {
-  background: transparent !important;
-  border-radius: 14px !important;
-}
-
-.menu-link {
-  text-decoration: none;
-  color: #3b342d !important;
-  font-weight: 500;
-  font-size: 0.95rem;
-  padding: 0.65rem 1rem;
-  border-radius: 14px;
-  transition: all 0.25s ease;
-  display: inline-flex;
-  align-items: center;
-}
-
-.menu-link:hover {
-  background: #f3eee8;
-  color: #1f1a17 !important;
-}
-
-.active-link {
-  background: #e8ded2;
-  color: #1f1a17 !important;
-  font-weight: 600;
-}
-
+/* MOBILE */
 @media (max-width: 768px) {
+  :host {
+    top: 0;
+  }
+
   :host ::ng-deep .p-menubar {
-    padding: 0.7rem 1rem !important;
-    border-radius: 18px !important;
+    padding: 0.7rem 0.9rem !important;
+    min-height: 72px;
+  }
+
+  :host ::ng-deep .p-menubar-start {
+    margin-right: 0.75rem !important;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+
+
+  :host ::ng-deep .p-menubar-end {
+    margin-left: 0.5rem;
+  }
+
+  .brand {
+    gap: 0.6rem;
+    min-width: 0;
+  }
+
+  .brand-logo {
+    width: 36px;
+    height: 36px;
   }
 
   .brand-text {
-    display: none;
+    display: flex;
+  }
+
+  .brand-title {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+
+  .brand-subtitle {
+    font-size: 0.7rem;
+    line-height: 1.1;
+  }
+
+  :host ::ng-deep .p-menubar-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f3eee8 !important;
+    color: #5e5144 !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin-left: auto;
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+  }
+
+  :host ::ng-deep .p-menubar-button:hover {
+    background: #eadfd2 !important;
+  }
+
+  :host ::ng-deep .p-menubar-button:focus {
+    box-shadow: 0 0 0 0.2rem rgba(221, 203, 187, 0.45) !important;
+  }
+
+  .lang-switch {
+    width: 40px;
+    height: 40px;
+    border-color: rgba(0, 0, 0, 0.08);
+  }
+
+  .flag {
+    width: 22px;
+    height: 22px;
+  }
+
+  :host ::ng-deep .p-menubar-root-list {
+    position: absolute !important;
+    top: calc(100% + 0.55rem);
+    left: 0.75rem !important;
+    right: 0.75rem !important;
+    width: auto !important;
+    min-width: unset !important;
+    max-width: unset !important;
+    margin: 0 !important;
+    padding: 0.55rem !important;
+    background: rgba(255, 255, 255, 0.98) !important;
+    border: 1px solid #eee4d8 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.10) !important;
+    gap: 0.2rem !important;
+    z-index: 1002 !important;
+    box-sizing: border-box !important;
+  }
+
+  :host ::ng-deep .p-menubar-item {
+    width: 100%;
+  }
+
+  :host ::ng-deep .p-menubar-item-content {
+    width: 100%;
+  }
+
+  :host ::ng-deep .p-menuitem-content {
+    border-radius: 14px !important;
   }
 
   .menu-link {
-    font-size: 0.85rem;
-    padding: 0.55rem 0.7rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 46px;
+    padding: 0.8rem 0.95rem;
+    font-size: 0.95rem;
+    border-radius: 14px;
+  }
+
+  .active-link {
+    background: #e8ded2;
+  }
+}
+
+@media (max-width: 480px) {
+  :host ::ng-deep .p-menubar {
+    padding: 0.65rem 0.75rem !important;
+  }
+
+  .brand-title {
+    font-size: 0.95rem;
+  }
+
+  .brand-subtitle {
+    font-size: 0.68rem;
+  }
+
+  :host ::ng-deep .p-menubar-root-list {
+    left: 0.75rem;
+    right: 0.75rem;
+  }
+
+  .menu-link {
+    font-size: 0.92rem;
+    padding: 0.75rem 0.9rem;
   }
 }

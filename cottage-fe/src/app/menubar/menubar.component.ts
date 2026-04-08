@@ -36,7 +36,16 @@ export class MenubarComponent {
   }
 
   switchLang(lang: string) {
-    this.translate.use(lang);
+    this.translate.use(lang).subscribe({
+      next: () => {
+        this.currentLang = lang;
+        this.loadMenu();
+        localStorage.setItem('lang', lang);
+      },
+      error: (err) => {
+        console.error('Language switch failed:', err);
+      }
+    });
   }
 
   getFlagPath(lang: string) {
