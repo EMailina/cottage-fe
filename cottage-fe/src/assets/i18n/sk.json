@@ -9,11 +9,37 @@
     "contact": "Kontakt"
   },
   "home": {
-    "welcome": "Vitajte v Cottage",
-    "subtitle": "Váš ideálny únik do srdca prírody",
-    "description": "Zažite pokoj Rajeckých Teplíc v našej krásne zrekonštruovanej chate. Obklopení horami a lesmi, naša ubytovňa ponúka dokonalú kombináciu komfortu a prírody.",
-    "bookNow": "Rezervovať",
-    "learnMore": "Viac informácií"
+    "hero": {
+      "label": "Vitajte",
+      "title": "Oddýchnite si v srdci prírody",
+      "description": "Komfortné ubytovanie v pokojnom prostredí neďaleko Rajeckých Teplíc. Ideálne miesto pre oddych, výlety a spoločné chvíle s rodinou či priateľmi.",
+      "galleryButton": "Pozrieť galériu",
+      "contactButton": "Kontakt"
+    },
+    "features": {
+      "label": "Prečo si vybrať nás",
+      "title": "Miesto, kde si naozaj oddýchnete",
+      "items": {
+        "location": {
+          "title": "Príjemné prostredie v centre Rajeckých Teplíc",
+          "text": "Chata sa nachádza v príjemnom prostredí priamo v centre Rajeckých Teplíc, v blízkosti všetkého dôležitého pre váš pohodlný pobyt."
+        },
+        "sport": {
+          "title": "Príjemné miesto pre športovanie",
+          "text": "Okolie ponúka skvelé možnosti na športovanie, prechádzky, turistiku aj aktívny oddych počas celého pobytu."
+        },
+        "capacity": {
+          "title": "Ideálne miesto pre pobyt 2 – 6 ľudí",
+          "text": "Chata je ideálnou voľbou pre páry, rodiny aj menšie skupiny priateľov, ktoré hľadajú pohodlie a súkromie."
+        }
+      }
+    },
+    "about": {
+      "label": "O chate",
+      "title": "Pokojné miesto pre váš oddych",
+      "description": "Naša chata je ideálnym miestom pre tých, ktorí hľadajú pokoj, pohodlie a prírodu na dosah. Či už plánujete víkendový pobyt, rodinný výlet alebo relax s priateľmi, u nás nájdete príjemné zázemie aj atmosféru, v ktorej si oddýchnete.",
+      "button": "Viac o chate"
+    }
   },
   "niceToKnow": {
     "label": "Dobré vedieť",
@@ -82,45 +108,30 @@
     "feature3": "Výhľady na hory",
     "feature4": "Pokojné okolie"
   },
-  "gallery": {
-    "title": "Fotogaléria",
-    "subtitle": "Preskúmajte našu chatu a okolie"
-  },
-  "history": {
-    "title": "História",
-    "subtitle": "Príbeh našej chaty",
-    "text": "Naša chata má bohatú históriu siahajúcu až do začiatku 20. storočia. Pôvodne postavená ako letné sídlo, bola starostlivo zachovaná a zrekonštruovaná, aby zachovala svoj pôvodný charakter a zároveň poskytovala moderné pohodlie."
-  },
-  "facilities": {
-    "title": "Vybavenie",
-    "subtitle": "Všetko, čo potrebujete pre pohodlný pobyt",
-    "kitchen": "Kuchyňa",
-    "kitchenText": "Plne vybavená kuchyňa s modernými spotrebičmi",
-    "bedroom": "Spálňa",
-    "bedroomText": "Pohodlné spálne s výhľadom na hory",
-    "bathroom": "Kúpeľňa",
-    "bathroomText": "Moderné kúpeľne s teplou vodou",
-    "living": "Obývacia izba",
-    "livingText": "Udobná obývacia izba s kozubom"
-  },
-  "attractions": {
-    "title": "Lokálne atrakcie",
-    "subtitle": "Objavte krásu okolo nás",
-    "hiking": "Turistika",
-    "hikingText": "Preskúmajte krásne chodníky v Malých Fatrách",
-    "spa": "Spa & Wellness",
-    "spaText": "Relaxujte v termálnych kúpeľoch Rajeckých Teplíc",
-    "culture": "Kultúra",
-    "cultureText": "Navštívte historické pamiatky a múzeá v regióne",
-    "nature": "Príroda",
-    "natureText": "Užívajte si nedotknutú prírodu a divú zver"
-  },
   "contact": {
-    "findUs": "Kde nás nájdete",
+    "title": "Kontakt",
+    "subtitle": "Ak máte otázky k pobytu alebo si chcete rezervovať termín, neváhajte nás kontaktovať. Radi vám pomôžeme a poskytneme všetky potrebné informácie.",
+    "findUs": "Nájdete nás tu",
+    "addressLine1": "Lúčna 113/31",
+    "addressLine2": "013 13 Rajecké Teplice",
+    "phone": "+421 905 123 456",
+    "email": "info@cottage.sk",
     "navigate": "Navigovať"
   },
-  "table": {
-    "title": "Sezónny rozvrh",
-    "subtitle": "Aktuálne tabuľky a zápasy sezóny"
+  "gallery": {
+    "label": "Galéria",
+    "title": "Prezrite si našu chatu",
+    "subtitle": "Objavte fotografie interiéru, exteriéru a okolia chaty. Nájdete tu aj pôdorys pre lepšiu predstavu o rozložení priestoru.",
+    "plan": {
+      "label": "Pôdorys",
+      "title": "Pôdorys chaty",
+      "description": "Pre lepšiu orientáciu si môžete pozrieť pôdorys chaty. Získate tak jednoduchý prehľad o rozložení miestností a priestoru počas vášho pobytu."
+    },
+    "photos": {
+      "label": "Fotografie",
+      "title": "Galéria fotografií",
+      "description": "Pozrite si vybrané fotografie chaty a jej okolia. Atmosféru miesta, interiér aj exteriér si môžete prezrieť ešte pred vaším pobytom."
+    }
   }
+
 }

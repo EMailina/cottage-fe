@@ -9,11 +9,37 @@
     "contact": "Contact"
   },
   "home": {
-    "welcome": "Welcome to Cottage",
-    "subtitle": "Your perfect getaway in the heart of nature",
-    "description": "Experience the tranquility of Rajecké Teplice in our beautifully restored cottage. Surrounded by mountains and forests, our accommodation offers the perfect blend of comfort and nature.",
-    "bookNow": "Book Now",
-    "learnMore": "Learn More"
+    "hero": {
+      "label": "Welcome",
+      "title": "Relax in the heart of nature",
+      "description": "Comfortable accommodation in a peaceful setting near Rajecké Teplice. An ideal place for relaxation, trips and special moments with family or friends.",
+      "galleryButton": "View gallery",
+      "contactButton": "Contact"
+    },
+    "features": {
+      "label": "Why choose us",
+      "title": "A place where you can truly relax",
+      "items": {
+        "location": {
+          "title": "Pleasant surroundings in the centre of Rajecké Teplice",
+          "text": "The cottage is located in a pleasant setting right in the centre of Rajecké Teplice, close to everything you need for a comfortable stay."
+        },
+        "sport": {
+          "title": "A great place for sports and activities",
+          "text": "The surrounding area offers excellent opportunities for sports, walks, hiking and active relaxation throughout your stay."
+        },
+        "capacity": {
+          "title": "An ideal place for 2 to 6 guests",
+          "text": "The cottage is a perfect choice for couples, families and smaller groups of friends looking for comfort and privacy."
+        }
+      }
+    },
+    "about": {
+      "label": "About the cottage",
+      "title": "A peaceful place for your отдых",
+      "description": "Our cottage is the perfect place for those looking for peace, comfort and nature within easy reach. Whether you are planning a weekend stay, a family trip or a relaxing getaway with friends, you will find a welcoming atmosphere and everything you need to unwind.",
+      "button": "More about the cottage"
+    }
   },
   "niceToKnow": {
     "label": "Nice to know",
@@ -83,44 +109,28 @@
     "feature4": "Peaceful surroundings"
   },
   "gallery": {
-    "title": "Photo Gallery",
-    "subtitle": "Explore our cottage and surroundings"
-  },
-  "history": {
-    "title": "History",
-    "subtitle": "The story of our cottage",
-    "text": "Our cottage has a rich history dating back to the early 20th century. Originally built as a summer residence, it has been carefully preserved and restored to maintain its original character while providing modern comforts."
-  },
-  "facilities": {
-    "title": "Facilities",
-    "subtitle": "Everything you need for a comfortable stay",
-    "kitchen": "Kitchen",
-    "kitchenText": "Fully equipped kitchen with modern appliances",
-    "bedroom": "Bedroom",
-    "bedroomText": "Comfortable bedrooms with mountain views",
-    "bathroom": "Bathroom",
-    "bathroomText": "Modern bathrooms with hot water",
-    "living": "Living Room",
-    "livingText": "Cozy living room with fireplace"
-  },
-  "attractions": {
-    "title": "Local Attractions",
-    "subtitle": "Discover the beauty around us",
-    "hiking": "Hiking",
-    "hikingText": "Explore the beautiful trails in the Malá Fatra mountains",
-    "spa": "Spa & Wellness",
-    "spaText": "Relax in the thermal spa of Rajecké Teplice",
-    "culture": "Culture",
-    "cultureText": "Visit historical sites and museums in the region",
-    "nature": "Nature",
-    "natureText": "Enjoy the pristine nature and wildlife"
+    "label": "Gallery",
+    "title": "Take a look at our cottage",
+    "subtitle": "Discover photos of the interior, exterior and surroundings of the cottage.",
+    "photos": {
+      "label": "Photos",
+      "title": "Photo gallery",
+      "description": "Browse selected photos of the cottage and its surroundings. You can explore the atmosphere, interior and exterior even before your stay."
+    },
+    "plan": {
+      "label": "Floor plan",
+      "title": "Cottage floor plan",
+      "description": "For a better overview, you can also view the cottage floor plan and get a clear idea of the layout."
+    }
   },
   "contact": {
-    "findUs": "Where to find Us",
+    "title": "Contact",
+    "subtitle": "If you have any questions about your stay or would like to make a reservation, feel free to contact us. We will be happy to help and provide you with all the information you need.",
+    "findUs": "Find us here",
+    "addressLine1": "Lúčna 113/31",
+    "addressLine2": "013 13 Rajecké Teplice",
+    "phone": "+421 905 123 456",
+    "email": "info@cottage.sk",
     "navigate": "Navigate"
-  },
-  "table": {
-    "title": "Season Schedule",
-    "subtitle": "Current season standings and matches"
   }
 }

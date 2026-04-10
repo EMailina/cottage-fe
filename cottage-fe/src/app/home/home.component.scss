@@ -101,7 +101,7 @@
 .features,
 .about,
 .steps {
-  padding: 5rem 6rem;
+  padding: 3rem 6rem;
 }
 
 .section-header {
@@ -129,6 +129,8 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
+    margin-top: 2rem;
+
 }
 
 .feature-card {
