@@ -13,7 +13,7 @@
 
     <!-- Elektrina -->
     <section class="info-row">
-      <div class="info-row__image">
+      <div class="info-row__image info-row__image--electricity">
         <img src="assets/images/nice-to-know/electricity.png" />
       </div>
       <div class="info-row__content">
@@ -68,7 +68,7 @@
     <!-- Ohrev vody -->
     <section class="info-row">
       <div class="info-row__image">
-        <img src="assets/images/nice-to-know/bathroom-water.png" />
+        <img src="assets/images/nice-to-know/bathroom-water.jpg" />
       </div>
       <div class="info-row__content">
         <span class="info-row__tag">
@@ -85,7 +85,7 @@
 
     <!-- WIFI -->
     <section class="info-row">
-      <div class="info-row__image">
+      <div class="info-row__image info-row__image--wifi">
         <img src="assets/images/nice-to-know/wifi.png" />
       </div>
       <div class="info-row__content">
@@ -97,24 +97,6 @@
         </h2>
         <p>
           {{ 'niceToKnow.items.wifi.text' | translate }}
-        </p>
-      </div>
-    </section>
-
-    <!-- Kľúče -->
-    <section class="info-row">
-      <div class="info-row__image">
-        <img src="assets/images/nice-to-know/keys.png" />
-      </div>
-      <div class="info-row__content">
-        <span class="info-row__tag">
-          {{ 'niceToKnow.items.keys.tag' | translate }}
-        </span>
-        <h2>
-          {{ 'niceToKnow.items.keys.title' | translate }}
-        </h2>
-        <p>
-          {{ 'niceToKnow.items.keys.text' | translate }}
         </p>
       </div>
     </section>
@@ -175,9 +157,22 @@
 
     <!-- radiator kupelna -->
     <section class="info-row">
-      <div class="info-row__image">
-        <img src="assets/images/nice-to-know/bathroom-radiator.png" />
+      <div class="info-row__image info-row__image--radiator-layout">
+        <div class="radiator-layout">
+          <figure class="radiator-layout__main">
+            <img src="assets/images/nice-to-know/radiator.jpg" alt="Radiátor v kúpeľni spredu" />
+          </figure>
+
+          <figure class="radiator-layout__side">
+            <img src="assets/images/nice-to-know/radiator-up.jpg" alt="Radiátor v kúpeľni zhora" />
+          </figure>
+
+          <figure class="radiator-layout__side">
+            <img src="assets/images/nice-to-know/radiator-side.jpg" alt="Radiátor v kúpeľni zboku" />
+          </figure>
+        </div>
       </div>
+
       <div class="info-row__content">
         <span class="info-row__tag">
           {{ 'niceToKnow.items.bathroomRadiator.tag' | translate }}
@@ -190,6 +185,5 @@
         </p>
       </div>
     </section>
-
   </div>
 </section>

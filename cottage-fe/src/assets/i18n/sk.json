@@ -63,7 +63,7 @@
       },
       "bathroomWater": {
         "tag": "Kúpeľňa",
-        "title": "Ohrev vody v kúpeľke",
+        "title": "Ohrev vody v kúpeľni",
         "text": "Na vonkajšej strane kúpeľne sa nachádza spínač so svetlom. Ak svieti, voda v bojleri sa nahrieva. Ohrev trvá približne jednu hodinu. Počas nahrievania vody neodporúčame sprchovanie, aby sa voda stihla dostatočne zohriať."
       },
       "wifi": {
@@ -93,8 +93,8 @@
       },
       "bathroomRadiator": {
         "tag": "Kúpeľňa",
-        "title": "Ovládanie radiátora v kúpeľke",
-        "text": "Radiátor v kúpeľke zapnete tlačidlom zboku. Nad radiátorom sa nachádza ovládanie, pomocou ktorého si môžete nastaviť intenzitu kúrenia podľa potreby."
+        "title": "Ovládanie radiátora v kúpeľni",
+        "text": "Radiátor v kúpeľni zapnete tlačidlom zboku. Nad radiátorom sa nachádza ovládanie, pomocou ktorého si môžete nastaviť intenzitu kúrenia podľa potreby."
       }
     }
   },
